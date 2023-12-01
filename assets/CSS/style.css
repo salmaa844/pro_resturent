@@ -1,0 +1,381 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700&display=swap');
+
+/*     */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/* font-family: 'Dancing Script', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+/* font-family: 'Alegreya Sans', sans-serif;*/
+
+/* general css*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+h2{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84; 
+    font-size:28px ;
+    margin: 20px 0;
+}
+ul{
+    list-style: none;
+}
+/*  header css*/
+
+.header{
+
+    background-image:url(../img/shutterstock_277750193.jpg) ;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+}
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.navbar .logo{
+    float: left
+
+}
+.navbar .new-item{
+    float: right
+}
+.navbar .logo img{
+   width: 123px;
+}
+.navbar .new-item li{
+    display: inline-block;
+    padding: 10px 0;
+    
+}
+.fa-bars{
+    display: none;
+   
+}
+.navbar .new-item li a{
+    color:white;
+    text-decoration:none;
+    padding: 0 15px;
+    text-transform: capitalize;
+    font-family: 'Alegreya Sans', sans-serif ;
+    font-size: 20px;
+}
+
+.navbar .new-item li a:hover{
+ color: #e2785d;
+}
+.navbar .new-item li.active{
+    border-top: 3px solid #e2785d;
+
+}
+.header .header-content{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    
+}
+h1{
+    font-family: 'Alegreya Sans', sans-serif ;
+    font-size: 76px;
+    font-weight: 400px;
+}
+.header .header-content p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom:50px;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    padding: 15px 28px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 1s;
+}
+.btn-brown{
+    background: #c1ab84 ;
+    color: white;
+    margin-right: 10px;
+}
+
+.header-content .btn:hover{
+
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+/* about css*/
+.about , .review  {
+    padding: 100px 0;
+}
+.left-content{
+    float:left ;
+    width: 50%;
+    
+}
+.right-content{
+    float: right;
+    width: 50%;
+    padding-top: 100px;
+}
+.right-content p , .review .left-content  p ,.map .left-content  p ,.link  .item p{
+  font-size:18px ;
+  line-height: 2;
+  margin-bottom: 20px;
+
+}
+.right-content .icons i ,.map .left-content .icons i{
+    background-color: #c1ab84;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+
+
+
+}
+.right-content .icons span , .review.left-content .icons span  , .map .left-content .icons span{
+    margin-left: 15px;
+    font-size:18px ;
+    font-weight: 400;
+    
+}
+.right-content .icons li , .review.left-content .icons li ,  .map .left-content .icons li{
+    margin-bottom: 15px;
+}
+/* review css */
+.review , .map{
+    background-color: #f8f8f8;
+}
+.review .right-content  {
+    padding-top: 0;
+}
+.review .left-content .icons i {
+
+     color: #c1ab84;
+     font-size: 18px;
+}
+.review .right-content img {
+    width: 100%;
+   
+}
+.review .left-content{
+    padding-top: 50px;
+   
+}
+/*map*/
+
+.map .right-content  {
+    padding-top: 0;
+}
+.map .left-content h3{
+    color: black;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.map .right-content img {
+    width: 100%;
+   
+}
+.map .left-content{
+    padding-top: 50px;
+   
+}
+/*returant img css*/
+.rest{
+   
+    background-image: url(../img//shutterstock_280369721.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* menue css*/
+.menu {
+    text-align: center;
+    overflow: hidden;
+    
+}
+.menu .menu-item{
+    overflow: hidden;
+    margin-bottom: 45px;
+
+}
+.menu .menu-item .items {
+    float:left;
+    width: 33%;
+}
+.menu .menu-item .items img{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.menu .menu-item .items p{
+    font-family: 'Alegraya',serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    margin: 10px;
+   
+    
+}
+.menu .btn-brown {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+.menu .btn-brown i{
+   position: absolute;
+   right: 10px;
+   opacity: 0;
+    transition:  .3s;
+    
+}
+.menu .btn-brown:hover i {
+    right: 2px;
+    opacity: 1;
+}
+
+.menu .container{
+    padding: 20px 0;
+}
+/*testimonials css*/
+
+.testimonial{
+
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4))
+    , url(../img/shutterstock_277750193.jpg);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    margin: 100px 0;
+}
+.testimonial .container{
+    padding: 50px 0;
+} 
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: -1;
+}
+.testimonial h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.testimonial i.comment{
+    
+    font-size: 39px;
+   
+
+}
+.testimonial p{
+    font-family: "Alegreya" ,sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 2;
+    margin: 30px auto;
+    width: 85%;
+}
+.testimonial h3{
+    font-size: 19px;
+}
+.testimonial h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.testimonial h3 , .testimonial h4{
+    font-family: "Alegreya" ,sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+.testimonial .button{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+.testimonial .button i{
+    
+    color: white;
+
+}
+.testimonial .button:hover{
+    background-color: white;
+
+}
+.testimonial .button:hover{
+    color: black;
+
+}
+
+/* links css*/
+.links{
+    background-color: #403d38;
+    color: white;
+    padding: 50px 0;
+}
+.links .item{
+    float:left;
+    width: 25%;
+    padding: 0 20px;
+}
+
+.links .item a{
+    color: #A9A9A9;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+
+}
+
+.links .item li{
+
+    margin: 10px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #96969833;
+
+}
+.links .item li:last-of-type{
+    border: none;
+}
+.links .last .item{
+    background-image: linear-gradient(rgba(64, 61, 52, 0.801),rgba(64, 61, 52, 0.705)),url(../img/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position-y: 106px;
+}
